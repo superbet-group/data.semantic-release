@@ -30,6 +30,7 @@ Usage:
     .option("analyze-commits", { type: "string", group: "Plugins" })
     .option("verify-release", { ...stringList, group: "Plugins" })
     .option("generate-notes", { ...stringList, group: "Plugins" })
+    .option('f', {alias: 'path-filter',describe: 'Path Filter', type: 'string', group: 'Options'})
     .option("prepare", { ...stringList, group: "Plugins" })
     .option("publish", { ...stringList, group: "Plugins" })
     .option("success", { ...stringList, group: "Plugins" })
